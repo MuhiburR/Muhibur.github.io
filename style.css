@@ -1,8 +1,57 @@
 body {
-	height: 100vh;
-	width: 100vw;
-	margin: 0;
-	padding: 0;
-	background-image: url('https://st2.depositphotos.com/1010735/6786/v/600/depositphotos_67868987-stock-illustration-wavy-water-background.jpg');
-	background-size: cover;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #f0f0f0;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+}
+
+#search-section {
+	margin-bottom: 20px;
+}
+
+#search-form input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+#search-form button {
+	padding: 10px 20px;
+	background-color: #007bff; /* Blue button */
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#cars-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+	gap: 20px;
+}
+
+.car-card {
+	border: 1px solid #ccc;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.car-details h3 {
+	margin-top: 0;
 }
