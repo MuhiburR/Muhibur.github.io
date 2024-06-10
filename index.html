@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>404 CarPedia</title>
-  <link rel="stylesheet" href="style.css">
+	<title>404 CarPedia</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>404 CarPedia</h1>
-  </header>
+	<header>
+		<h1>404 CarPedia</h1>
+	</header>
 
-  <main>
-    <section id="search-section">
-      <h2>Search for Cars</h2>
-      <form id="search-form">
-        <input type="text" id="search-input" placeholder="Enter make, model, or keywords">
-        <button type="submit">Search</button>
-      </form>
-    </section>
+	<main>
+		<section id="search-section">
+			<h2>Search for Cars</h2>
+			<form id="search-form">
+				<input type="text" id="search-input" placeholder="Enter make, model, or keywords">
+				<button type="submit">Search</button>
+			</form>
+		</section>
 
-    <section id="cars-section">
-      <h2>Available Cars</h2>
-      <div id="cars-container">
-        <!-- Car listings will be dynamically added here -->
-      </div>
-    </section>
-  </main>
+		<section id="cars-section">
+			<h2>Available Cars</h2>
+			<div id="cars-container">
+				<!-- Car listings will be dynamically added here -->
+				<div class="car-card">
+					<img src="https://crdms.images.consumerreports.org/c_lfill,w_1126,q_auto,f_auto/prod/cars/cr/model-years/15214-2023-toyota-corolla" alt="Toyota Corolla">
+					<div class="car-details">
+						<h3>Toyota Corolla (2023)</h3>
+						<p>$25000</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
 
-  <script src="script.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
