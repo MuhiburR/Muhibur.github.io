@@ -5,14 +5,14 @@ const cars = [
 		model: "Corolla",
 		year: 2022,
 		price: 25000,
-		imageUrl: "https://example.com/toyota-corolla.jpg"
+		imageUrl: "https://di-enrollment-api.s3.amazonaws.com/toyota/models/2022/corolla/colors/SUPER+WHITE.jpg"
 	},
 	{
 		make: "Honda",
 		model: "Civic",
 		year: 2023,
 		price: 28000,
-		imageUrl: "https://example.com/honda-civic.jpg"
+		imageUrl: "https://mystrongad.com/BPH_BillPageHonda/Digital/Civic/2023/23-Honda-Civic-White.png" 
 	},
 	// ... more cars
 ];
