@@ -1,18 +1,11 @@
 // Sample car data (replace with data from your API or database)
 const cars = [
 	{
-		make: "Toyota",
-		model: "Corolla",
-		year: 2022,
-		price: 25000,
-		imageUrl: "https://di-enrollment-api.s3.amazonaws.com/toyota/models/2022/corolla/colors/SUPER+WHITE.jpg"
-	},
-	{
 		make: "Honda",
 		model: "Civic",
 		year: 2023,
 		price: 28000,
-		imageUrl: "https://mystrongad.com/BPH_BillPageHonda/Digital/Civic/2023/23-Honda-Civic-White.png" 
+		imageUrl: "https://edgecast-img.yahoo.net/mysterio/api/EF123BA5415FBE0DBAB6DD88D377D0D41F5F0B12A159814233D781C2048D3E3D/autoblog/resizefill_w788_h525;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USD20HOC021B021001.jpg"
 	},
 	// ... more cars
 ];
