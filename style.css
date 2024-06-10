@@ -49,7 +49,7 @@ main {
 
 .car-card img {
 	width: 100%;
-	height: 200px;
+	height: 150px; /* Make the height automatic, so it adapts to the width */
 	object-fit: cover;
 	margin-bottom: 10px;
 }
